@@ -23,8 +23,8 @@ Pythonに関する基礎知識がない場合は、はじめに以下のチュ�
 まずは、`virtualenv`を用いて仮想環境を構築しましょう。仮想環境を構築することで、プロジェクトごとにPythonのバージョンを変えたり、必要なパッケージを分けてインストールすることができます。
 
 ```bash
-$ virtualenv intern2017Venv --python=python3
-$ source intern2017Venv/bin/activate
+$ virtualenv venv --python=python3
+$ source venv/bin/activate
 ```
 
 virtualenvがインストールされていない場合は、以下のコマンドを実行してインストールしましょう。
@@ -69,8 +69,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 本チュートリアルで用いるコードは以下のGitリポジトリに含まれています。リポジトリをクローンし、ディレクトリを移動してください。
 
 ```bash
-$ git clone https://github.com/tech-sketch/tis-internship-2017-nlp.git
-$ cd tis-internship-2017-nlp
+$ git clone https://github.com/tech-sketch/tis-internship-2018.git
+$ cd tis-internship-2018
 ```
 
 
@@ -80,6 +80,7 @@ $ cd tis-internship-2017-nlp
 ```bash
 $ wget https://storage.googleapis.com/chakki/datasets/public/chABSA/chABSA-dataset.zip
 $ unzip chABSA-dataset.zip -d data
+$ rm chABSA-dataset.zip
 ```
 
 これで、アスペクトベース評価分析のデータセットをローカル環境に用意できました。以下のコマンドを実行して、データセットが存在するか確認してみましょう。
