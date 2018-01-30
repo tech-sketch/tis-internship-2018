@@ -14,6 +14,15 @@
 
 *インターンを通じ学んだことが、今後の学業、就職活動に役立てばと思います！*
 
+## Task
+
+<p align="center">
+  <img src="https://github.com/tech-sketch/tis-internship-2018/raw/master/images/dataset.png" width="400px">
+  <img src="https://github.com/tech-sketch/tis-internship-2018/raw/master/images/task.png" width="400px">
+</p>
+
+Dataset: [chABSA-dataset](https://github.com/chakki-works/chABSA-dataset)
+
 ## Schedule
 
 <p align="center">
@@ -38,3 +47,8 @@
 
 共有タイム、成果発表はJupyter Notebookをそのまま使って行なってもらいます。[RISE](https://github.com/damianavila/RISE)を使うとスライド形式にもできるので、余裕があれば試してみてください。
 
+## Tutorial
+
+Let's Go!
+
+**[Begin tutorial](https://github.com/tech-sketch/tis-internship-2018/tree/master/notebooks)**
