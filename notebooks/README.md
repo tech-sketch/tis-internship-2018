@@ -87,6 +87,13 @@ $ unzip chABSA-dataset.zip -d data
 $ rm chABSA-dataset.zip
 ```
 
+Windowsの場合、PowerShellで以下のコマンドを実行します。
+
+```powershell
+Invoke-WebRequest -Uri https://storage.googleapis.com/chakki/datasets/public/chABSA/chABSA-dataset.zip -OutFile chABSA-dataset.zip
+Expand-Archive chABSA-dataset.zip -DestinationPath data
+```
+
 これで、アスペクトベース評価分析のデータセットをローカル環境に用意できました。以下のコマンドを実行して、データセットが存在するか確認してみましょう。
 
 ```bash
