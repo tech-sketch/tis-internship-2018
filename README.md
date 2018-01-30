@@ -26,7 +26,7 @@ Dataset: [chABSA-dataset](https://github.com/chakki-works/chABSA-dataset)
 ## Schedule
 
 <p align="center">
-<img src="https://github.com/tech-sketch/tis-internship-2017/raw/master/images/schedule.png" width="600px"/>
+<img src="https://github.com/tech-sketch/tis-internship-2018/raw/master/images/schedule.png" width="600px"/>
 </p>
 
 **Day1**
